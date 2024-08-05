@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="kodi.dvd.screensaver"
-    name="Bouncing DVD Screensaver"
-    version="2.0.1"
-    provider-name="FdelMazo">
+<addon id="kodi.bouncing.screensaver"
+    name="Bouncing Screensaver"
+    version="1.0.0"
+    provider-name="sirlucidae">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.ui.screensaver" library="resources/__init__.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Bouncing DVD Screensaver</summary>
-    <description lang="en">A throwback screensaver to time when things were simpler! Originally written by Team Evolve, forked by FdelMazo to support color and speed</description>
+    <summary lang="en">Bouncing Screensaver</summary>
+    <description lang="en">A screensaver for Kodi to display a bouncing logo, inspired by DVD players. Forked from user "FdelMazo", based on a plugin by "Evolve Ecosytem".</description>
     <website></website>
     <email></email>
     <assets>
@@ -19,6 +19,6 @@
 		<screenshot>resources/screenshot-02.png</screenshot>
     </assets>
     <news></news>
-    <source>https://github.com/fdelmazo/kodi-dvd-screensaver</source>
+    <source>https://github.com/sirlucidae/kodi_bouncing_screensaver</source>
   </extension>
 </addon>
