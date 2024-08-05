@@ -1,6 +1,6 @@
-# kodi_bouncing_screensaver
+# Kodi Bouncing Screensaver
 
-A screensaver for Kodi displaying a bouncing logo, similar to that used by DVD players.
+A screensaver for Kodi to display a bouncing logo, inspired by DVD players.
 
 ---
 
