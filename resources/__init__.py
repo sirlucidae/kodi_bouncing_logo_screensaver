@@ -20,14 +20,14 @@ class screensaver(xbmcgui.WindowXMLDialog):
         self.speed = int(addon.getSetting("speed"))
         self.speed /= 100
         self.corner_color = addon.getSetting("corner_color")
-        self.actual_logo = "dvd.png"
+        self.actual_logo = "logo.png"
 
     def onInit(self):
         self.logo = self.getControl(50)
         self.logo_width = int(self.logo.getWidth())
         self.logo_height = int(self.logo.getHeight())
         self.logo.setImage(self.actual_logo, False)
-        # self.logo.setLabel("JENNA")
+        # self.logo.setLabel("")
         self.screen_width = self.getWidth()
         self.screen_height = self.getHeight()
         self.width = random.randint(1, self.screen_width)
@@ -113,7 +113,7 @@ class screensaver(xbmcgui.WindowXMLDialog):
 
 
 if __name__ == '__main__':
-    screensaver = screensaver('evolve_screensaver.xml',
+    screensaver = screensaver('screensaver.xml',
                               addon.getAddonInfo("path"),
                               'default',
                               '1080i')

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="kodi.bouncing.screensaver"
-    name="Bouncing Screensaver"
-    version="1.0.0"
+<addon id="kodi.bouncing.logo.screensaver"
+    name="Kodi Bouncing Logo Screensaver"
+    version="0.0.1"
     provider-name="sirlucidae">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -9,14 +9,13 @@
   <extension point="xbmc.ui.screensaver" library="resources/__init__.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Bouncing Screensaver</summary>
-    <description lang="en">A screensaver for Kodi to display a bouncing logo, inspired by DVD players. Forked from user "FdelMazo", based on a plugin by "Evolve Ecosytem".</description>
+    <summary lang="en">Kodi Bouncing Logo Screensaver</summary>
+    <description lang="en">A screensaver for Kodi to display a bouncing logo, inspired by DVD players. Forked from "FdelMazo", based on a plugin by "Evolve Ecosytem".</description>
     <website></website>
     <email></email>
     <assets>
 		<icon>resources/icon.png</icon>
-		<screenshot>resources/screenshot-01.png</screenshot>
-		<screenshot>resources/screenshot-02.png</screenshot>
+		<screenshot>resources/screenshot.png</screenshot>
     </assets>
     <news></news>
     <source>https://github.com/sirlucidae/kodi_bouncing_screensaver</source>

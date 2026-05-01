@@ -9,7 +9,7 @@
             <width>100%</width>
             <align>left</align>
             <aligny>top</aligny>
-            <texture colordiffuse="ff000000">u_background.png</texture>
+            <texture colordiffuse="ff000000">background.png</texture>
         </control>
         <control type="image" id="50">
             <description>Logo</description>
@@ -17,7 +17,7 @@
             <width>396</width>
             <align>left</align>
             <aligny>top</aligny>
-            <texture>dvd.png</texture>
+            <texture>logo.png</texture>
         </control>
         <!-- <control type="label" id="50">
             <description>Logo</description>
